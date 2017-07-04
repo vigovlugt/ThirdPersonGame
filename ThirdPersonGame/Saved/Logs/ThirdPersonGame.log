@@ -1,0 +1,451 @@
+﻿Log file open, 07/04/17 21:15:46
+LogInit:Display: Running engine for game: ThirdPersonGame
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1299068746) SRandInit(1299068746).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.092215
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Program Data/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.04-19.15.47:271][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.04-19.15.47:271][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.04-19.15.47:297][  0]LogInit: Computer: DESKTOP-I327KBI
+[2017.07.04-19.15.47:297][  0]LogInit: User: vigov
+[2017.07.04-19.15.47:297][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.07.04-19.15.47:297][  0]LogInit: High frequency timer resolution =3.507513 MHz
+[2017.07.04-19.15.47:297][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2017.07.04-19.15.47:297][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.04-19.15.47:297][  0]LogMemory: Process Physical Memory: 272.43 MB used, 272.43 MB peak
+[2017.07.04-19.15.47:297][  0]LogMemory: Process Virtual Memory: 263.09 MB used, 263.09 MB peak
+[2017.07.04-19.15.47:297][  0]LogMemory: Physical Memory: 7487.96 MB used,  25231.24 MB free, 32719.20 MB total
+[2017.07.04-19.15.47:297][  0]LogMemory: Virtual Memory: 640.50 MB used,  25231.24 MB free, 134217728.00 MB total
+[2017.07.04-19.15.47:378][  0]LogInit: Using OS detected language (en-GB).
+[2017.07.04-19.15.47:378][  0]LogInit: Using OS detected locale (en-US).
+[2017.07.04-19.15.47:384][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.07.04-19.15.48:306][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.04-19.15.48:316][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 200 Series' (Feature Level 11_0)
+[2017.07.04-19.15.48:316][  0]LogD3D11RHI:       2029/0/16359 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.07.04-19.15.48:317][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.04-19.15.48:317][  0]LogD3D11RHI:       0/0/16359 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.04-19.15.48:317][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.04-19.15.48:321][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.04-19.15.48:321][  0]LogD3D11RHI:     GPU DeviceId: 0x6811 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.04-19.15.48:321][  0]LogWindows: EnumDisplayDevices:
+[2017.07.04-19.15.48:321][  0]LogWindows:    0. 'AMD Radeon (TM) R9 200 Series' (P:1 D:1)
+[2017.07.04-19.15.48:322][  0]LogWindows:    1. 'AMD Radeon (TM) R9 200 Series' (P:0 D:0)
+[2017.07.04-19.15.48:322][  0]LogWindows:    2. 'AMD Radeon (TM) R9 200 Series' (P:0 D:0)
+[2017.07.04-19.15.48:322][  0]LogWindows:    3. 'AMD Radeon (TM) R9 200 Series' (P:0 D:0)
+[2017.07.04-19.15.48:322][  0]LogWindows:    4. 'AMD Radeon (TM) R9 200 Series' (P:0 D:0)
+[2017.07.04-19.15.48:322][  0]LogWindows:    5. 'AMD Radeon (TM) R9 200 Series' (P:0 D:0)
+[2017.07.04-19.15.48:322][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.07.04-19.15.48:322][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 200 Series
+[2017.07.04-19.15.48:322][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.6.2 (internal:22.19.171.257, unified:22.19.171.257)
+[2017.07.04-19.15.48:322][  0]LogD3D11RHI:      Driver Date: 6-12-2017
+[2017.07.04-19.15.48:322][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.04-19.15.48:355][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.04-19.15.48:365][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.07.04-19.15.48:365][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Intermediate/Shaders/WorkingDirectory/6620/).
+[2017.07.04-19.15.48:365][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/vigov/AppData/Local/Temp/UnrealShaderWorkingDir/FB5E306F4ADF58A9672D68965BDD1F23/'.
+[2017.07.04-19.15.48:365][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.04-19.15.49:316][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.04-19.15.49:360][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.04-19.15.49:430][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.04-19.15.49:471][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.04-19.15.49:509][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.04-19.15.49:547][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.04-19.15.49:585][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.04-19.15.49:623][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.04-19.15.49:658][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.04-19.15.49:696][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.04-19.15.49:734][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.04-19.15.49:772][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.04-19.15.49:824][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.04-19.15.49:888][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.04-19.15.49:935][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.04-19.15.50:085][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.04-19.15.50:085][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.04-19.15.50:124][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.04-19.15.50:198][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.04-19.15.50:220][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.04-19.15.50:259][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.04-19.15.50:297][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.04-19.15.50:334][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.04-19.15.50:372][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.04-19.15.50:372][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.04-19.15.50:718][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.04-19.15.50:801][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/vigov/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.04-19.15.50:801][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/vigov/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.04-19.15.50:801][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.04-19.15.50:801][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.04-19.15.50:802][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.04-19.15.50:802][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.04-19.15.50:816][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.04-19.15.50:827][  0]LogDerivedDataCache: Using Local data cache path C:/Users/vigov/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.04-19.15.50:836][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.04-19.15.50:836][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.04-19.15.50:837][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.04-19.15.50:837][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.04-19.15.51:120][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.04-19.15.51:200][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.04-19.15.51:328][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.04-19.15.51:359][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.04-19.15.51:397][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.04-19.15.51:397][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.04-19.15.51:397][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.04-19.15.51:835][  0]LogNetVersion: ThirdPersonGame , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 119416652)
+[2017.07.04-19.15.51:886][  0]LogAssetRegistry: FAssetRegistry took 0.0247 seconds to start up
+[2017.07.04-19.15.51:935][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.032786 seconds
+[2017.07.04-19.15.51:944][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.04-19.15.51:944][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.07.04-19.15.51:944][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.04-19.15.51:987][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.04-19.15.54:036][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.04-19.15.54:077][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.04-19.15.54:600][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.04-19.15.54:914][  0]SourceControl: Info Source control is disabled
+[2017.07.04-19.15.54:915][  0]SourceControl: Info Source control is disabled
+[2017.07.04-19.15.54:952][  0]SourceControl: Info Source control is disabled
+[2017.07.04-19.15.54:989][  0]SourceControl: Info Source control is disabled
+[2017.07.04-19.15.55:566][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.04-19.15.56:288][  0]LogEngine: Initializing Engine...
+[2017.07.04-19.15.56:288][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.04-19.15.56:455][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.04-19.15.56:455][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.04-19.15.56:547][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.04-19.15.56:556][  0]LogInit: XAudio2 using 'Headset Earphone (Razer Kraken 7.1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.04-19.15.56:577][  0]LogInit: FAudioDevice initialized.
+[2017.07.04-19.15.56:618][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/vigov/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.04-19.15.56:630][  0]LogInit: Texture streaming: Enabled
+[2017.07.04-19.15.56:693][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.04-19.15.56:892][  0]LogInit: Transaction tracking system initialized
+[2017.07.04-19.15.57:132][  0]BlueprintLog: New page: Editor Load
+[2017.07.04-19.15.57:986][  0]LocalizationService: Info Localization service is disabled
+[2017.07.04-19.15.58:557][  0]LogConsoleResponse:Display: 
+[2017.07.04-19.15.58:666][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.04-19.15.58:666][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.04-19.15.59:496][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/' took 0.01s
+[2017.07.04-19.15.59:496][  0]SourceControl: Info Source control is disabled
+[2017.07.04-19.15.59:497][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/Program Data/Epic Games/UE_4.16/FeaturePacks/StarterContent.upack)
+[2017.07.04-19.15.59:504][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.07.04-19.15.59:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2017.07.04-19.15.59:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2017.07.04-19.15.59:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2017.07.04-19.15.59:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2017.07.04-19.15.59:523][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2017.07.04-19.15.59:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2017.07.04-19.15.59:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2017.07.04-19.15.59:534][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2017.07.04-19.15.59:538][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2017.07.04-19.15.59:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2017.07.04-19.15.59:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2017.07.04-19.15.59:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Audio/Collapse01.uasset"
+[2017.07.04-19.15.59:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Audio/Collapse02.uasset"
+[2017.07.04-19.15.59:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2017.07.04-19.15.59:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Audio/Explosion01.uasset"
+[2017.07.04-19.15.59:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Audio/Explosion02.uasset"
+[2017.07.04-19.15.59:568][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2017.07.04-19.15.59:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Audio/Fire01.uasset"
+[2017.07.04-19.15.59:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2017.07.04-19.15.59:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2017.07.04-19.15.59:581][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2017.07.04-19.15.59:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Audio/Light01.uasset"
+[2017.07.04-19.15.59:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2017.07.04-19.15.59:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Audio/Light02.uasset"
+[2017.07.04-19.15.59:593][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2017.07.04-19.15.59:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Audio/Smoke01.uasset"
+[2017.07.04-19.15.59:598][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2017.07.04-19.15.59:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2017.07.04-19.15.59:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2017.07.04-19.15.59:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2017.07.04-19.15.59:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2017.07.04-19.15.59:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2017.07.04-19.15.59:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2017.07.04-19.15.59:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Audio/Steam01.uasset"
+[2017.07.04-19.15.59:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2017.07.04-19.15.59:642][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2017.07.04-19.15.59:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2017.07.04-19.15.59:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2017.07.04-19.15.59:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2017.07.04-19.15.59:657][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2017.07.04-19.15.59:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2017.07.04-19.15.59:664][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2017.07.04-19.15.59:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2017.07.04-19.15.59:670][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2017.07.04-19.15.59:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2017.07.04-19.15.59:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2017.07.04-19.15.59:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2017.07.04-19.15.59:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2017.07.04-19.15.59:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2017.07.04-19.15.59:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2017.07.04-19.15.59:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2017.07.04-19.15.59:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2017.07.04-19.15.59:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2017.07.04-19.15.59:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2017.07.04-19.15.59:750][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Maps/Minimal_Default.umap"
+[2017.07.04-19.15.59:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2017.07.04-19.15.59:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Maps/StarterMap.umap"
+[2017.07.04-19.15.59:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2017.07.04-19.15.59:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2017.07.04-19.15.59:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2017.07.04-19.15.59:782][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2017.07.04-19.15.59:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2017.07.04-19.15.59:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2017.07.04-19.15.59:793][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2017.07.04-19.15.59:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2017.07.04-19.15.59:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2017.07.04-19.15.59:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2017.07.04-19.15.59:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2017.07.04-19.15.59:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2017.07.04-19.15.59:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2017.07.04-19.15.59:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2017.07.04-19.15.59:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2017.07.04-19.15.59:827][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2017.07.04-19.15.59:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2017.07.04-19.15.59:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2017.07.04-19.15.59:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Glass.uasset"
+[2017.07.04-19.15.59:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2017.07.04-19.15.59:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2017.07.04-19.15.59:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2017.07.04-19.15.59:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2017.07.04-19.15.59:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2017.07.04-19.15.59:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2017.07.04-19.15.59:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2017.07.04-19.15.59:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2017.07.04-19.15.59:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2017.07.04-19.15.59:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2017.07.04-19.15.59:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2017.07.04-19.15.59:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2017.07.04-19.15.59:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2017.07.04-19.15.59:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2017.07.04-19.15.59:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2017.07.04-19.15.59:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2017.07.04-19.15.59:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2017.07.04-19.15.59:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2017.07.04-19.15.59:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2017.07.04-19.15.59:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2017.07.04-19.15.59:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2017.07.04-19.15.59:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2017.07.04-19.15.59:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2017.07.04-19.15.59:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2017.07.04-19.15.59:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2017.07.04-19.15.59:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2017.07.04-19.15.59:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Particles/P_Explosion.uasset"
+[2017.07.04-19.15.59:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Particles/P_Fire.uasset"
+[2017.07.04-19.15.59:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Particles/P_Smoke.uasset"
+[2017.07.04-19.15.59:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Particles/P_Sparks.uasset"
+[2017.07.04-19.15.59:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2017.07.04-19.15.59:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2017.07.04-19.15.59:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2017.07.04-19.15.59:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2017.07.04-19.15.59:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2017.07.04-19.15.59:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2017.07.04-19.15.59:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2017.07.04-19.15.59:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2017.07.04-19.15.59:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2017.07.04-19.15.59:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2017.07.04-19.15.59:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2017.07.04-19.16.00:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/MaterialSphere.uasset"
+[2017.07.04-19.16.00:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/SM_Bush.uasset"
+[2017.07.04-19.16.00:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/SM_Chair.uasset"
+[2017.07.04-19.16.00:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2017.07.04-19.16.00:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/SM_Couch.uasset"
+[2017.07.04-19.16.00:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/SM_Door.uasset"
+[2017.07.04-19.16.00:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2017.07.04-19.16.00:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2017.07.04-19.16.00:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2017.07.04-19.16.00:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2017.07.04-19.16.00:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2017.07.04-19.16.00:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2017.07.04-19.16.00:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2017.07.04-19.16.00:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/SM_Rock.uasset"
+[2017.07.04-19.16.00:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/SM_Shelf.uasset"
+[2017.07.04-19.16.00:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/SM_Stairs.uasset"
+[2017.07.04-19.16.00:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/SM_Statue.uasset"
+[2017.07.04-19.16.00:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/SM_TableRound.uasset"
+[2017.07.04-19.16.00:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2017.07.04-19.16.00:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2017.07.04-19.16.00:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2017.07.04-19.16.00:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2017.07.04-19.16.00:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2017.07.04-19.16.00:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2017.07.04-19.16.00:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2017.07.04-19.16.00:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2017.07.04-19.16.00:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2017.07.04-19.16.00:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2017.07.04-19.16.00:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2017.07.04-19.16.00:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2017.07.04-19.16.00:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2017.07.04-19.16.00:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2017.07.04-19.16.00:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2017.07.04-19.16.00:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2017.07.04-19.16.00:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2017.07.04-19.16.00:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2017.07.04-19.16.00:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2017.07.04-19.16.00:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2017.07.04-19.16.00:144][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2017.07.04-19.16.00:148][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2017.07.04-19.16.00:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2017.07.04-19.16.00:156][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2017.07.04-19.16.00:159][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2017.07.04-19.16.00:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2017.07.04-19.16.00:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2017.07.04-19.16.00:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2017.07.04-19.16.00:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2017.07.04-19.16.00:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2017.07.04-19.16.00:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2017.07.04-19.16.00:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2017.07.04-19.16.00:193][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2017.07.04-19.16.00:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2017.07.04-19.16.00:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2017.07.04-19.16.00:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2017.07.04-19.16.00:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2017.07.04-19.16.00:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2017.07.04-19.16.00:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2017.07.04-19.16.00:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2017.07.04-19.16.00:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2017.07.04-19.16.00:278][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2017.07.04-19.16.00:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2017.07.04-19.16.00:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2017.07.04-19.16.00:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2017.07.04-19.16.00:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2017.07.04-19.16.00:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2017.07.04-19.16.00:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2017.07.04-19.16.00:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2017.07.04-19.16.00:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2017.07.04-19.16.00:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2017.07.04-19.16.00:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2017.07.04-19.16.00:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2017.07.04-19.16.00:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2017.07.04-19.16.00:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2017.07.04-19.16.00:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2017.07.04-19.16.00:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2017.07.04-19.16.00:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2017.07.04-19.16.00:378][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2017.07.04-19.16.00:384][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2017.07.04-19.16.00:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2017.07.04-19.16.00:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2017.07.04-19.16.00:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2017.07.04-19.16.00:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2017.07.04-19.16.00:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2017.07.04-19.16.00:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2017.07.04-19.16.00:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2017.07.04-19.16.00:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2017.07.04-19.16.00:457][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2017.07.04-19.16.00:458][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2017.07.04-19.16.00:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2017.07.04-19.16.00:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Door_M.uasset"
+[2017.07.04-19.16.00:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Door_N.uasset"
+[2017.07.04-19.16.00:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2017.07.04-19.16.00:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2017.07.04-19.16.00:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2017.07.04-19.16.00:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2017.07.04-19.16.00:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2017.07.04-19.16.00:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2017.07.04-19.16.00:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2017.07.04-19.16.00:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2017.07.04-19.16.00:522][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2017.07.04-19.16.00:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2017.07.04-19.16.00:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2017.07.04-19.16.00:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2017.07.04-19.16.00:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2017.07.04-19.16.00:568][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2017.07.04-19.16.00:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2017.07.04-19.16.00:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2017.07.04-19.16.00:591][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2017.07.04-19.16.00:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2017.07.04-19.16.00:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2017.07.04-19.16.00:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2017.07.04-19.16.00:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2017.07.04-19.16.00:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2017.07.04-19.16.00:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2017.07.04-19.16.00:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2017.07.04-19.16.00:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2017.07.04-19.16.00:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2017.07.04-19.16.00:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2017.07.04-19.16.00:676][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2017.07.04-19.16.00:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2017.07.04-19.16.00:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2017.07.04-19.16.00:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2017.07.04-19.16.00:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2017.07.04-19.16.00:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2017.07.04-19.16.00:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2017.07.04-19.16.00:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2017.07.04-19.16.00:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2017.07.04-19.16.00:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2017.07.04-19.16.00:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2017.07.04-19.16.00:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2017.07.04-19.16.00:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2017.07.04-19.16.00:813][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2017.07.04-19.16.00:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2017.07.04-19.16.00:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2017.07.04-19.16.00:827][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2017.07.04-19.16.00:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2017.07.04-19.16.00:858][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2017.07.04-19.16.00:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2017.07.04-19.16.00:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2017.07.04-19.16.00:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2017.07.04-19.16.00:897][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2017.07.04-19.16.00:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2017.07.04-19.16.00:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Water_M.uasset"
+[2017.07.04-19.16.00:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Water_N.uasset"
+[2017.07.04-19.16.00:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2017.07.04-19.16.00:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2017.07.04-19.16.00:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2017.07.04-19.16.00:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2017.07.04-19.16.00:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2017.07.04-19.16.01:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2017.07.04-19.16.01:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2017.07.04-19.16.01:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2017.07.04-19.16.01:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2017.07.04-19.16.01:114][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
+[2017.07.04-19.16.01:184][  0]LogSavePackage: Save=12.05ms
+[2017.07.04-19.16.01:184][  0]LogSavePackage: Moving 'C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Saved/Floor_400x4001F0E547646B9A29929CC6396F640E213.tmp' to 'C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2017.07.04-19.16.01:187][  0]LogSavePackage:Display: Finished SavePackage C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.07.04-19.16.01:187][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2017.07.04-19.16.01:189][  0]Cmd: MAP LOAD FILE="C:/Users/vigov/Documents/GitHub/ThirdPersonGame/ThirdPersonGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.04-19.16.01:189][  0]LightingResults: New page: Lighting Build
+[2017.07.04-19.16.01:221][  0]MapCheck: New page: Map Check
+[2017.07.04-19.16.01:221][  0]LightingResults: New page: Lighting Build
